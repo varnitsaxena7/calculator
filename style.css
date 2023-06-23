@@ -1,0 +1,58 @@
+.bcalculator {
+    max-width: 388.5px;
+   margin:auto;
+   background-color: rgb(3, 9, 11); ;
+   margin-top: 50px;  border:4px solid  #1f211c; border-radius: 10%;
+
+}
+
+#screen {
+    
+    border-width: 10px;
+    text-align: right;
+    border-color: rgb(3, 9, 11);
+    border-radius:10%;
+    height:90px;
+    width:363px;
+
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: aliceblue;
+    background: rgb(3, 9, 11);
+    border: 5px #1f211c;
+    margin-top: 20px;
+    border-radius: 10%;
+    width: 0px;
+    
+}
+
+.buttons > div {
+    border:6px solid  rgb(3, 9, 11); border-radius: 50%;
+    display:inline-block;
+    background-color: #1f211c;
+}
+
+.button {
+    border: 5px rgb(3, 9, 11);
+    border-radius: 50%;
+    line-height: 90px;
+    text-align: center;
+    width:85px;
+    font-size: 25px;
+     font-family:Arial, Helvetica, sans-serif;;
+}
+
+#equal {
+    background-color: blue
+ white;
+}
+
+.button:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
